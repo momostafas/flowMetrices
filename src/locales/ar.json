@@ -1,184 +1,96 @@
 {
-  "common": {
-    "brand": "FlowMetrics",
-    "nav": {
-      "home": "الرئيسية",
-      "features": "المزايا",
-      "pricing": "الأسعار",
-      "contact": "تواصل"
-    },
-    "footer": {
-      "tagline": "تحليلات تشغيلية للفرق التي تُطلق كل أسبوع.",
-      "rights": "© 2026 FlowMetrics, Inc. جميع الحقوق محفوظة.",
-      "privacy": "الخصوصية",
-      "terms": "الشروط",
-      "status": "الحالة"
-    },
-    "langSwitcher": {
-      "label": "اللغة",
-      "en": "الإنجليزية",
-      "ar": "العربية",
-      "fr": "الفرنسية",
-      "de": "الألمانية"
-    },
-    "cta": {
-      "primary": "احجز عرضًا",
-      "secondary": "عرض الأسعار"
-    },
-    "meta": {
-      "lastUpdatedLabel": "آخر تحديث لبوابة المنتج"
-    }
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "لوحة تحليلات للفرق",
-      "title": "شاهد كيف يتدفق العمل فعليًا عبر الفرق.",
-      "subtitle": "يربط FlowMetrics التذاكر والاجتماعات وإشارات التسليم حتى يتمكن قادة الهندسة والمنتج من رصد الاختناقات قبل أن تؤثر على خارطة الطريق.",
-      "proof": "موثوق به من قبل منظمات منتج موزعة من 30 إلى 3000 شخص."
-    },
-    "pillars": {
-      "title": "لماذا تعتمد الفرق على FlowMetrics",
-      "flow": {
-        "title": "زمن التدفق من البداية للنهاية",
-        "body": "قياس زمن التسليم وتأخير المراجعة وتأخير التسليم عبر الأدوات دون جداول هشة."
-      },
-      "quality": {
-        "title": "إنتاجية صحية لا أرقام زائفة",
-        "body": "اربط الإنتاجية بمعدل فشل التغيير وحمل الحوادث لتبقى اتجاهات السرعة واقعية."
-      },
-      "alignment": {
-        "title": "لغة مشتركة للتنفيذ والمهندسين",
-        "body": "تلخص التقارير التنفيذية نفس المقاييس التي يراها الفريق في لوحات السكواد."
-      }
-    },
-    "logos": {
-      "title": "مبني لتسليم البرمجيات الحديث"
-    }
-  },
-  "features": {
-    "hero": {
-      "title": "كل ما تحتاجه لقيادة التسليم بثقة.",
-      "subtitle": "FlowMetrics حازم حيث يهم—التعاريف والحوكمة والتفاصيل—ومرن حيث سلسلة أدواتك فريدة."
-    },
-    "list": {
-      "integrations": {
-        "title": "تكاملات عميقة",
-        "body": "مزامنة ثنائية الاتجاه مع Jira وLinear وGitHub وGitLab وPagerDuty. خطافات ويب وSCIM للهوية المؤسسية."
-      },
-      "dashboards": {
-        "title": "لوحات حسب الدور",
-        "body": "عروض السكواد والبرنامج والمحفظة مع ضوابط لتبقى المقاييس قابلة للمقارنة بين الفرق."
-      },
-      "alerts": {
-        "title": "تنبيهات استباقية",
-        "body": "أشعر عند تراجع زمن الدورة أو عمق المراجعة أو تكرار النشر باستخدام عتبات مضبوطة على أساسك."
-      },
-      "exports": {
-        "title": "تصدير جاهز للتدقيق",
-        "body": "جدولة CSV ومزامنة المستودع إلى Snowflake أو BigQuery لسير عمل المالية والامتثال."
-      }
-    },
-    "cta": {
-      "title": "شاهد FlowMetrics على بياناتك",
-      "body": "نُدخل شريحة للقراءة فقط خلال أقل من أسبوع لتتحقق من جودة الإشارة قبل التوسع."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "title": "خطط بسيطة تتوسع مع هيكل مؤسستك.",
-      "subtitle": "الاتفاقات السنوية تشمل ورش التهيئة ومراجعات النجاح ودعم الهجرة من أدوات التحليلات القديمة."
-    },
-    "meta": {
-      "lastUpdatedLabel": "آخر تحديث لجدول الأسعار"
-    },
-    "billing": {
-      "perSeat": "لكل مقعد / شهر",
-      "billedAnnually": "يُدفع سنويًا. الدفع الشهري متاح من Growth فما فوق."
-    },
-    "plans": {
-      "starter": {
-        "name": "Starter",
-        "desc": "لسكواد منتج واحد يتجه نحو صحة تسليم جادة.",
-        "priceNote": "ابتداءً من {amount} لكل مقعد / شهر",
-        "cta": "ابدأ التجربة",
-        "bullets": {
-          "b1": "حتى 25 مساهمًا",
-          "b2": "Jira أو Linear ومزود Git واحد",
-          "b3": "سجل مقاييس 30 يومًا"
-        }
-      },
-      "growth": {
-        "name": "Growth",
-        "desc": "لبرامج متعددة الفرق تحتاج تعاريف مشتركة وتجميعات محفظة.",
-        "priceNote": "ابتداءً من {amount} لكل مقعد / شهر",
-        "cta": "تحدث إلى المبيعات",
-        "bullets": {
-          "b1": "حتى 200 مساهم",
-          "b2": "كل التكاملات القياسية + خطافات الويب",
-          "b3": "سجل مقاييس 13 شهرًا"
-        }
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "desc": "نشرات عالمية مع SSO وخيارات VPC وشركاء نجاح مخصصون.",
-        "priceNote": "تعبئة مخصومة وخصومات حجم",
-        "cta": "اطلب عرضًا",
-        "bullets": {
-          "b1": "مساهمون بلا حد",
-          "b2": "SCIM وسجلات تدقيق وخيارات إقامة البيانات",
-          "b3": "دعم على مدار الساعة مع CSM مسمى"
-        }
-      }
-    },
-    "faq": {
-      "title": "الأسعار والتعبئة — أسئلة شائعة",
-      "items": {
-        "seatAddons": {
-          "question": "كيف تُحسب المقاعد؟",
-          "answer": "كل من يظهر على لوحة سكواد أو يستلم ملخصات آلية يستهلك مقعدًا. حسابات الخدمة مجانية."
-        },
-        "annualCommit": {
-          "question": "هل تقدمون اتفاقيات متعددة السنوات؟",
-          "answer": "نعم. عملاء Enterprise يمكنهم تثبيت التزامات خارطة الطريق ومستويات دعم مميزة وأسعار وحدة ثابتة لمدة 24–36 شهرًا."
-        },
-        "sso": {
-          "question": "متى يُضمّن SSO؟",
-          "answer": "SSO عبر SAML أو OIDC مضمّن افتراضيًا في Enterprise ويمكن إضافته إلى Growth بعد مراجعات أمنية مؤهلة."
-        }
-      },
-      "fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback."
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "أخبرنا عن سلسلة أدوات التسليم لديك.",
-      "subtitle": "نرد خلال يوم عمل واحد مع جولة مخصصة ولوحات نموذجية لطوبولوجيا فريقك."
-    },
-    "channels": {
-      "sales": {
-        "title": "المبيعات والحلول",
-        "body": "sales@flowmetrics.example",
-        "hint": "ضمّن أداة تتبع العمل الأساسية وعدد المساهمين التقريبي."
-      },
-      "support": {
-        "title": "دعم العملاء",
-        "body": "support@flowmetrics.example",
-        "hint": "للعملاء الحاليين: ضمّن اسم مساحة العمل لتوجيه أسرع."
-      },
-      "hq": {
-        "title": "المقر",
-        "body": "500 Howard Street, San Francisco, CA"
-      }
-    },
-    "form": {
-      "title": "اطلب عرضًا",
-      "name": "الاسم الكامل",
-      "email": "البريد المهني",
-      "company": "الشركة",
-      "message": "ماذا نجهّز؟",
-      "submit": "إرسال الطلب",
-      "success": "شكرًا—سيتواصل فريق الحلول خلال يوم عمل واحد.",
-      "disclaimer": "بالإرسال توافق على الشروط وتقر بإشعار الخصوصية. بلا بريد مزعج—أبدًا."
-    }
-  }
+  "common.brand": "FlowMetrics",
+  "common.cta.primary": "احجز عرضًا",
+  "common.cta.secondary": "عرض الأسعار",
+  "common.footer.privacy": "الخصوصية",
+  "common.footer.rights": "© 2026 FlowMetrics, Inc. جميع الحقوق محفوظة.",
+  "common.footer.status": "الحالة",
+  "common.footer.tagline": "تحليلات تشغيلية للفرق التي تُطلق كل أسبوع.",
+  "common.footer.terms": "الشروط",
+  "common.langSwitcher.ar": "العربية",
+  "common.langSwitcher.de": "الألمانية",
+  "common.langSwitcher.en": "الإنجليزية",
+  "common.langSwitcher.fr": "الفرنسية",
+  "common.langSwitcher.label": "اللغة",
+  "common.meta.lastUpdatedLabel": "آخر تحديث لبوابة المنتج",
+  "common.nav.contact": "تواصل",
+  "common.nav.features": "المزايا",
+  "common.nav.home": "الرئيسية",
+  "common.nav.pricing": "الأسعار",
+  "contact.channels.hq.body": "500 Howard Street, San Francisco, CA",
+  "contact.channels.hq.title": "المقر",
+  "contact.channels.sales.body": "sales@flowmetrics.example",
+  "contact.channels.sales.hint": "ضمّن أداة تتبع العمل الأساسية وعدد المساهمين التقريبي.",
+  "contact.channels.sales.title": "المبيعات والحلول",
+  "contact.channels.support.body": "support@flowmetrics.example",
+  "contact.channels.support.hint": "للعملاء الحاليين: ضمّن اسم مساحة العمل لتوجيه أسرع.",
+  "contact.channels.support.title": "دعم العملاء",
+  "contact.form.company": "الشركة",
+  "contact.form.disclaimer": "بالإرسال توافق على الشروط وتقر بإشعار الخصوصية. بلا بريد مزعج—أبدًا.",
+  "contact.form.email": "البريد المهني",
+  "contact.form.message": "ماذا نجهّز؟",
+  "contact.form.name": "الاسم الكامل",
+  "contact.form.submit": "إرسال الطلب",
+  "contact.form.success": "شكرًا—سيتواصل فريق الحلول خلال يوم عمل واحد.",
+  "contact.form.title": "اطلب عرضًا",
+  "contact.hero.subtitle": "نرد خلال يوم عمل واحد مع جولة مخصصة ولوحات نموذجية لطوبولوجيا فريقك.",
+  "contact.hero.title": "أخبرنا عن سلسلة أدوات التسليم لديك.",
+  "features.cta.body": "نُدخل شريحة للقراءة فقط خلال أقل من أسبوع لتتحقق من جودة الإشارة قبل التوسع.",
+  "features.cta.title": "شاهد FlowMetrics على بياناتك",
+  "features.hero.subtitle": "FlowMetrics حازم حيث يهم—التعاريف والحوكمة والتفاصيل—ومرن حيث سلسلة أدواتك فريدة.",
+  "features.hero.title": "كل ما تحتاجه لقيادة التسليم بثقة.",
+  "features.list.alerts.body": "أشعر عند تراجع زمن الدورة أو عمق المراجعة أو تكرار النشر باستخدام عتبات مضبوطة على أساسك.",
+  "features.list.alerts.title": "تنبيهات استباقية",
+  "features.list.dashboards.body": "عروض السكواد والبرنامج والمحفظة مع ضوابط لتبقى المقاييس قابلة للمقارنة بين الفرق.",
+  "features.list.dashboards.title": "لوحات حسب الدور",
+  "features.list.exports.body": "جدولة CSV ومزامنة المستودع إلى Snowflake أو BigQuery لسير عمل المالية والامتثال.",
+  "features.list.exports.title": "تصدير جاهز للتدقيق",
+  "features.list.integrations.body": "مزامنة ثنائية الاتجاه مع Jira وLinear وGitHub وGitLab وPagerDuty. خطافات ويب وSCIM للهوية المؤسسية.",
+  "features.list.integrations.title": "تكاملات عميقة",
+  "home.hero.eyebrow": "شاشة لوحة تحليلات",
+  "home.hero.proof": "موثوق بيه من فرق منتجات موزعة من 30 لـ 3000 شخص.",
+  "home.hero.subtitle": "FlowMetrics يربط التذاكر والاجتماعات وإشارات التسليم حتى يتمكن قادة الهندسة والمنتجات من اكتشاف الاختناقات قبل أن تصل إلى خريطة الطريق.",
+  "home.hero.title": "شوف كيف العمل فعليًا يتدفق عبر فرقك.",
+  "home.logos.title": "مبني لتسليم البرمجيات الحديث",
+  "home.pillars.alignment.body": "تلخص التقارير التنفيذية نفس المقاييس التي يراها الفريق في لوحات السكواد.",
+  "home.pillars.alignment.title": "لغة مشتركة للتنفيذ والمهندسين",
+  "home.pillars.flow.body": "قياس زمن التسليم وتأخير المراجعة وتأخير التسليم عبر الأدوات دون جداول هشة.",
+  "home.pillars.flow.title": "زمن التدفق من البداية للنهاية",
+  "home.pillars.quality.body": "اربط الإنتاجية بمعدل فشل التغيير وحمل الحوادث لتبقى اتجاهات السرعة واقعية.",
+  "home.pillars.quality.title": "إنتاجية صحية لا أرقام زائفة",
+  "home.pillars.title": "لماذا تعتمد الفرق على FlowMetrics",
+  "pricing.billing.billedAnnually": "يُدفع سنويًا. الدفع الشهري متاح من Growth فما فوق.",
+  "pricing.billing.perSeat": "لكل مقعد / شهر",
+  "pricing.faq.fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback.",
+  "pricing.faq.items.annualCommit.answer": "نعم. عملاء Enterprise يمكنهم تثبيت التزامات خارطة الطريق ومستويات دعم مميزة وأسعار وحدة ثابتة لمدة 24–36 شهرًا.",
+  "pricing.faq.items.annualCommit.question": "هل تقدمون اتفاقيات متعددة السنوات؟",
+  "pricing.faq.items.seatAddons.answer": "كل من يظهر على لوحة سكواد أو يستلم ملخصات آلية يستهلك مقعدًا. حسابات الخدمة مجانية.",
+  "pricing.faq.items.seatAddons.question": "كيف تُحسب المقاعد؟",
+  "pricing.faq.items.sso.answer": "SSO عبر SAML أو OIDC مضمّن افتراضيًا في Enterprise ويمكن إضافته إلى Growth بعد مراجعات أمنية مؤهلة.",
+  "pricing.faq.items.sso.question": "متى يُضمّن SSO؟",
+  "pricing.faq.title": "الأسعار والتعبئة — أسئلة شائعة",
+  "pricing.hero.subtitle": "الاتفاقات السنوية تشمل ورش التهيئة ومراجعات النجاح ودعم الهجرة من أدوات التحليلات القديمة.",
+  "pricing.hero.title": "خطط بسيطة تتوسع مع هيكل مؤسستك.",
+  "pricing.meta.lastUpdatedLabel": "آخر تحديث لجدول الأسعار",
+  "pricing.plans.enterprise.bullets.b1": "مساهمون بلا حد",
+  "pricing.plans.enterprise.bullets.b2": "SCIM وسجلات تدقيق وخيارات إقامة البيانات",
+  "pricing.plans.enterprise.bullets.b3": "دعم على مدار الساعة مع CSM مسمى",
+  "pricing.plans.enterprise.cta": "اطلب عرضًا",
+  "pricing.plans.enterprise.desc": "نشرات عالمية مع SSO وخيارات VPC وشركاء نجاح مخصصون.",
+  "pricing.plans.enterprise.name": "Enterprise",
+  "pricing.plans.enterprise.priceNote": "تعبئة مخصومة وخصومات حجم",
+  "pricing.plans.growth.bullets.b1": "حتى 200 مساهم",
+  "pricing.plans.growth.bullets.b2": "كل التكاملات القياسية + خطافات الويب",
+  "pricing.plans.growth.bullets.b3": "سجل مقاييس 13 شهرًا",
+  "pricing.plans.growth.cta": "تحدث إلى المبيعات",
+  "pricing.plans.growth.desc": "لبرامج متعددة الفرق تحتاج تعاريف مشتركة وتجميعات محفظة.",
+  "pricing.plans.growth.name": "Growth",
+  "pricing.plans.growth.priceNote": "ابتداءً من {amount} لكل مقعد / شهر",
+  "pricing.plans.starter.bullets.b1": "حتى 25 مساهمًا",
+  "pricing.plans.starter.bullets.b2": "Jira أو Linear ومزود Git واحد",
+  "pricing.plans.starter.bullets.b3": "سجل مقاييس 30 يومًا",
+  "pricing.plans.starter.cta": "ابدأ التجربة",
+  "pricing.plans.starter.desc": "لسكواد منتج واحد يتجه نحو صحة تسليم جادة.",
+  "pricing.plans.starter.name": "Starter",
+  "pricing.plans.starter.priceNote": "ابتداءً من {amount} لكل مقعد / شهر"
 }
