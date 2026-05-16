@@ -1,0 +1,27 @@
+{
+  "name": "flowmetrics-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "hosts:flowmetrices": "node scripts/print-flowmetrices-hosts.mjs",
+    "quotai:sync": "node scripts/sync-quotai-locales.mjs",
+    "build": "node scripts/sync-quotai-locales.mjs && vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.14.2",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.4.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
