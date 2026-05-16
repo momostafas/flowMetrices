@@ -1,184 +1,96 @@
 {
-  "common": {
-    "brand": "FlowMetrics",
-    "nav": {
-      "home": "Accueil",
-      "features": "Fonctionnalités",
-      "pricing": "Tarifs",
-      "contact": "Contact"
-    },
-    "footer": {
-      "tagline": "Analytique opérationnelle pour les équipes qui livrent chaque semaine.",
-      "rights": "© 2026 FlowMetrics, Inc. Tous droits réservés.",
-      "privacy": "Confidentialité",
-      "terms": "Conditions",
-      "status": "Statut"
-    },
-    "langSwitcher": {
-      "label": "Langue",
-      "en": "Anglais",
-      "ar": "Arabe",
-      "fr": "Français",
-      "de": "Allemand"
-    },
-    "cta": {
-      "primary": "Réserver une démo",
-      "secondary": "Voir les tarifs"
-    },
-    "meta": {
-      "lastUpdatedLabel": "Portail produit mis à jour le"
-    }
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "Tableau de bord d’analytique d’équipe",
-      "title": "Visualisez comment le travail circule réellement entre vos équipes.",
-      "subtitle": "FlowMetrics relie les tickets, les réunitions et les signaux de livraison pour que les dirigeants produit et ingénierie repèrent les goulots d’étranglement avant qu’ils n’impactent la feuille de route.",
-      "proof": "Adopté par des organisations produit distribuées de 30 à 3 000 personnes."
-    },
-    "pillars": {
-      "title": "Pourquoi les équipes standardisent sur FlowMetrics",
-      "flow": {
-        "title": "Temps de flux de bout en bout",
-        "body": "Mesurez le délai d’exécution, la latence de revue et les retards de transfert entre outils sans tableurs fragiles."
-      },
-      "quality": {
-        "title": "Un débit sain, pas des vanity metrics",
-        "body": "Associez le débit au taux d’échec des changements et à la charge incident pour garder des tendances de vélocité honnêtes."
-      },
-      "alignment": {
-        "title": "Un langage partagé pour la direction et les IC",
-        "body": "Les synthèses exécutives restent alignées sur les mêmes métriques canoniques que vos équipes voient dans leurs tableaux d’escouade."
-      }
-    },
-    "logos": {
-      "title": "Conçu pour la livraison logicielle moderne"
-    }
-  },
-  "features": {
-    "hero": {
-      "title": "Tout ce qu’il faut pour piloter la livraison sereinement.",
-      "subtitle": "FlowMetrics est tranchant là où c’est important—définitions, gouvernance, drill-downs—et flexible là où votre chaîne d’outils est unique."
-    },
-    "list": {
-      "integrations": {
-        "title": "Intégrations profondes",
-        "body": "Synchronisation bidirectionnelle avec Jira, Linear, GitHub, GitLab et PagerDuty. Webhooks et SCIM pour l’identité entreprise."
-      },
-      "dashboards": {
-        "title": "Tableaux adaptés aux rôles",
-        "body": "Vues escouade, programme et portefeuille avec garde-fous pour que les métriques restent comparables entre équipes."
-      },
-      "alerts": {
-        "title": "Alertes proactives",
-        "body": "Notifiez les régressions de cycle time, de profondeur de revue ou de fréquence de déploiement avec des seuils calés sur vos baselines."
-      },
-      "exports": {
-        "title": "Exports prêts pour l’audit",
-        "body": "Planifiez des CSV et des synchronisations entrepôt vers Snowflake ou BigQuery pour la finance et la conformité."
-      }
-    },
-    "cta": {
-      "title": "Découvrez FlowMetrics sur vos propres données",
-      "body": "Nous intégrons une tranche en lecture seule en moins d’une semaine pour valider la qualité du signal avant un déploiement plus large."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "title": "Des offres simples qui évoluent avec votre organigramme.",
-      "subtitle": "Les accords annuels incluent des ateliers d’onboarding, des revues de succès et une aide à la migration depuis d’anciens outils d’analytique."
-    },
-    "meta": {
-      "lastUpdatedLabel": "Grille tarifaire mise à jour le"
-    },
-    "billing": {
-      "perSeat": "par siège / mois",
-      "billedAnnually": "Facturation annuelle. Mensuel disponible à partir de Growth."
-    },
-    "plans": {
-      "starter": {
-        "name": "Starter",
-        "desc": "Pour une escouade produit qui structure sa santé de livraison.",
-        "priceNote": "à partir de {amount} par siège / mois",
-        "cta": "Démarrer l’essai",
-        "bullets": {
-          "b1": "Jusqu’à 25 contributeurs",
-          "b2": "Jira ou Linear + un fournisseur Git",
-          "b3": "Historique métrique de 30 jours"
-        }
-      },
-      "growth": {
-        "name": "Growth",
-        "desc": "Pour des programmes multi-équipes qui ont besoin de définitions partagées et d’agrégations portefeuille.",
-        "priceNote": "à partir de {amount} par siège / mois",
-        "cta": "Parler aux ventes",
-        "bullets": {
-          "b1": "Jusqu’à 200 contributeurs",
-          "b2": "Toutes les intégrations standard + webhooks",
-          "b3": "Historique métrique de 13 mois"
-        }
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "desc": "Déploiements mondiaux avec SSO, options VPC et partenaires succès dédiés.",
-        "priceNote": "Forfaits sur mesure et remises volume",
-        "cta": "Demander une proposition",
-        "bullets": {
-          "b1": "Contributeurs illimités",
-          "b2": "SCIM, journaux d’audit et options de résidence des données",
-          "b3": "Support 24/7 avec CSM dédié"
-        }
-      }
-    },
-    "faq": {
-      "title": "FAQ tarifs & packaging",
-      "items": {
-        "seatAddons": {
-          "question": "Comment comptez-vous les sièges ?",
-          "answer": "Toute personne présente sur un tableau d’escouade ou recevant des digests automatisés consomme un siège. Les comptes de service sont gratuits."
-        },
-        "annualCommit": {
-          "question": "Proposez-vous des accords multi-années ?",
-          "answer": "Oui. Les clients Enterprise peuvent figer des engagements roadmap, des niveaux de support premium et un prix unitaire stable sur 24 à 36 mois."
-        },
-        "sso": {
-          "question": "Quand le SSO est-il inclus ?",
-          "answer": "Le SSO SAML ou OIDC est inclus par défaut sur Enterprise et peut être ajouté à Growth après revues de sécurité qualifiées."
-        }
-      },
-      "fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback."
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Parlez-nous de votre chaîne d’outils de livraison.",
-      "subtitle": "Nous répondons sous un jour ouvré avec une visite guidée adaptée et des exemples de tableaux pour votre topologie d’équipes."
-    },
-    "channels": {
-      "sales": {
-        "title": "Ventes & solutions",
-        "body": "sales@flowmetrics.example",
-        "hint": "Indiquez votre outil de suivi principal et le nombre approximatif de contributeurs."
-      },
-      "support": {
-        "title": "Support client",
-        "body": "support@flowmetrics.example",
-        "hint": "Clients existants : incluez le slug de votre workspace pour un routage plus rapide."
-      },
-      "hq": {
-        "title": "Siège",
-        "body": "500 Howard Street, San Francisco, CA"
-      }
-    },
-    "form": {
-      "title": "Demander une démo",
-      "name": "Nom complet",
-      "email": "Email professionnel",
-      "company": "Entreprise",
-      "message": "Que devons-nous préparer ?",
-      "submit": "Envoyer la demande",
-      "success": "Merci—notre équipe solutions vous recontacte sous un jour ouvré.",
-      "disclaimer": "En envoyant, vous acceptez nos Conditions et reconnaissez notre Politique de confidentialité. Pas de spam—jamais."
-    }
-  }
+  "common.brand": "FlowMetrics",
+  "common.cta.primary": "Réserver une démo",
+  "common.cta.secondary": "Voir les tarifs",
+  "common.footer.privacy": "Confidentialité",
+  "common.footer.rights": "© 2026 FlowMetrics, Inc. Tous droits réservés.",
+  "common.footer.status": "Statut",
+  "common.footer.tagline": "Analytique opérationnelle pour les équipes qui livrent chaque semaine.",
+  "common.footer.terms": "Conditions",
+  "common.langSwitcher.ar": "Arabe",
+  "common.langSwitcher.de": "Allemand",
+  "common.langSwitcher.en": "Anglais",
+  "common.langSwitcher.fr": "Français",
+  "common.langSwitcher.label": "Langue",
+  "common.meta.lastUpdatedLabel": "Portail produit mis à jour le",
+  "common.nav.contact": "Contact",
+  "common.nav.features": "Fonctionnalités",
+  "common.nav.home": "Accueil",
+  "common.nav.pricing": "Tarifs",
+  "contact.channels.hq.body": "500 Howard Street, San Francisco, CA",
+  "contact.channels.hq.title": "Siège",
+  "contact.channels.sales.body": "sales@flowmetrics.example",
+  "contact.channels.sales.hint": "Indiquez votre outil de suivi principal et le nombre approximatif de contributeurs.",
+  "contact.channels.sales.title": "Ventes & solutions",
+  "contact.channels.support.body": "support@flowmetrics.example",
+  "contact.channels.support.hint": "Clients existants : incluez le slug de votre workspace pour un routage plus rapide.",
+  "contact.channels.support.title": "Support client",
+  "contact.form.company": "Entreprise",
+  "contact.form.disclaimer": "En envoyant, vous acceptez nos Conditions et reconnaissez notre Politique de confidentialité. Pas de spam—jamais.",
+  "contact.form.email": "Email professionnel",
+  "contact.form.message": "Que devons-nous préparer ?",
+  "contact.form.name": "Nom complet",
+  "contact.form.submit": "Envoyer la demande",
+  "contact.form.success": "Merci—notre équipe solutions vous recontacte sous un jour ouvré.",
+  "contact.form.title": "Demander une démo",
+  "contact.hero.subtitle": "Nous répondons sous un jour ouvré avec une visite guidée adaptée et des exemples de tableaux pour votre topologie d’équipes.",
+  "contact.hero.title": "Parlez-nous de votre chaîne d’outils de livraison.",
+  "features.cta.body": "Nous intégrons une tranche en lecture seule en moins d’une semaine pour valider la qualité du signal avant un déploiement plus large.",
+  "features.cta.title": "Découvrez FlowMetrics sur vos propres données",
+  "features.hero.subtitle": "FlowMetrics est tranchant là où c’est important—définitions, gouvernance, drill-downs—et flexible là où votre chaîne d’outils est unique.",
+  "features.hero.title": "Tout ce qu’il faut pour piloter la livraison sereinement.",
+  "features.list.alerts.body": "Notifiez les régressions de cycle time, de profondeur de revue ou de fréquence de déploiement avec des seuils calés sur vos baselines.",
+  "features.list.alerts.title": "Alertes proactives",
+  "features.list.dashboards.body": "Vues escouade, programme et portefeuille avec garde-fous pour que les métriques restent comparables entre équipes.",
+  "features.list.dashboards.title": "Tableaux adaptés aux rôles",
+  "features.list.exports.body": "Planifiez des CSV et des synchronisations entrepôt vers Snowflake ou BigQuery pour la finance et la conformité.",
+  "features.list.exports.title": "Exports prêts pour l’audit",
+  "features.list.integrations.body": "Synchronisation bidirectionnelle avec Jira, Linear, GitHub, GitLab et PagerDuty. Webhooks et SCIM pour l’identité entreprise.",
+  "features.list.integrations.title": "Intégrations profondes",
+  "home.hero.eyebrow": "Tableau de bord d’analytique d’équipe",
+  "home.hero.proof": "Adopté par des organisations produit distribuées de 30 à 3 000 personnes.",
+  "home.hero.subtitle": "FlowMetrics relie les tickets, les réunitions et les signaux de livraison pour que les dirigeants produit et ingénierie repèrent les goulots d’étranglement avant qu’ils n’impactent la feuille de route.",
+  "home.hero.title": "Visualisez comment le travail circule réellement entre vos équipes.",
+  "home.logos.title": "Conçu pour la livraison logicielle moderne",
+  "home.pillars.alignment.body": "Les synthèses exécutives restent alignées sur les mêmes métriques canoniques que vos équipes voient dans leurs tableaux d’escouade.",
+  "home.pillars.alignment.title": "Un langage partagé pour la direction et les IC",
+  "home.pillars.flow.body": "Mesurez le délai d’exécution, la latence de revue et les retards de transfert entre outils sans tableurs fragiles.",
+  "home.pillars.flow.title": "Temps de flux de bout en bout",
+  "home.pillars.quality.body": "Associez le débit au taux d’échec des changements et à la charge incident pour garder des tendances de vélocité honnêtes.",
+  "home.pillars.quality.title": "Un débit sain, pas des vanity metrics",
+  "home.pillars.title": "Pourquoi les équipes standardisent sur FlowMetrics",
+  "pricing.billing.billedAnnually": "Facturation annuelle. Mensuel disponible à partir de Growth.",
+  "pricing.billing.perSeat": "par siège / mois",
+  "pricing.faq.fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback.",
+  "pricing.faq.items.annualCommit.answer": "Oui. Les clients Enterprise peuvent figer des engagements roadmap, des niveaux de support premium et un prix unitaire stable sur 24 à 36 mois.",
+  "pricing.faq.items.annualCommit.question": "Proposez-vous des accords multi-années ?",
+  "pricing.faq.items.seatAddons.answer": "Toute personne présente sur un tableau d’escouade ou recevant des digests automatisés consomme un siège. Les comptes de service sont gratuits.",
+  "pricing.faq.items.seatAddons.question": "Comment comptez-vous les sièges ?",
+  "pricing.faq.items.sso.answer": "Le SSO SAML ou OIDC est inclus par défaut sur Enterprise et peut être ajouté à Growth après revues de sécurité qualifiées.",
+  "pricing.faq.items.sso.question": "Quand le SSO est-il inclus ?",
+  "pricing.faq.title": "FAQ tarifs & packaging",
+  "pricing.hero.subtitle": "Les accords annuels incluent des ateliers d’onboarding, des revues de succès et une aide à la migration depuis d’anciens outils d’analytique.",
+  "pricing.hero.title": "Des offres simples qui évoluent avec votre organigramme.",
+  "pricing.meta.lastUpdatedLabel": "Grille tarifaire mise à jour le",
+  "pricing.plans.enterprise.bullets.b1": "Contributeurs illimités",
+  "pricing.plans.enterprise.bullets.b2": "SCIM, journaux d’audit et options de résidence des données",
+  "pricing.plans.enterprise.bullets.b3": "Support 24/7 avec CSM dédié",
+  "pricing.plans.enterprise.cta": "Demander une proposition",
+  "pricing.plans.enterprise.desc": "Déploiements mondiaux avec SSO, options VPC et partenaires succès dédiés.",
+  "pricing.plans.enterprise.name": "Enterprise",
+  "pricing.plans.enterprise.priceNote": "Forfaits sur mesure et remises volume",
+  "pricing.plans.growth.bullets.b1": "Jusqu’à 200 contributeurs",
+  "pricing.plans.growth.bullets.b2": "Toutes les intégrations standard + webhooks",
+  "pricing.plans.growth.bullets.b3": "Historique métrique de 13 mois",
+  "pricing.plans.growth.cta": "Parler aux ventes",
+  "pricing.plans.growth.desc": "Pour des programmes multi-équipes qui ont besoin de définitions partagées et d’agrégations portefeuille.",
+  "pricing.plans.growth.name": "Growth",
+  "pricing.plans.growth.priceNote": "à partir de {amount} par siège / mois",
+  "pricing.plans.starter.bullets.b1": "Jusqu’à 25 contributeurs",
+  "pricing.plans.starter.bullets.b2": "Jira ou Linear + un fournisseur Git",
+  "pricing.plans.starter.bullets.b3": "Historique métrique de 30 jours",
+  "pricing.plans.starter.cta": "Démarrer l’essai",
+  "pricing.plans.starter.desc": "Pour une escouade produit qui structure sa santé de livraison.",
+  "pricing.plans.starter.name": "Starter",
+  "pricing.plans.starter.priceNote": "à partir de {amount} par siège / mois"
 }
