@@ -1,184 +1,96 @@
 {
-  "common": {
-    "brand": "FlowMetrics",
-    "nav": {
-      "home": "Home",
-      "features": "Features",
-      "pricing": "Pricing",
-      "contact": "Contact"
-    },
-    "footer": {
-      "tagline": "Operational analytics for teams who ship every week.",
-      "rights": "© 2026 FlowMetrics, Inc. All rights reserved.",
-      "privacy": "Privacy",
-      "terms": "Terms",
-      "status": "Status"
-    },
-    "langSwitcher": {
-      "label": "Language",
-      "en": "English",
-      "ar": "Arabic",
-      "fr": "French",
-      "de": "German"
-    },
-    "cta": {
-      "primary": "Book a demo",
-      "secondary": "View pricing"
-    },
-    "meta": {
-      "lastUpdatedLabel": "Product portal last updated"
-    }
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "Team analytics dashboard",
-      "title": "See how work actually flows across teams.",
-      "subtitle": "FlowMetrics connects tickets, meetings, and delivery signals so engineering and product leaders can spot bottlenecks before they hit the roadmap.",
-      "proof": "Trusted by distributed product orgs from 30 to 3,000 people."
-    },
-    "pillars": {
-      "title": "Why teams standardize on FlowMetrics",
-      "flow": {
-        "title": "End-to-end flow time",
-        "body": "Measure lead time, review latency, and handoff delays across tools without maintaining fragile spreadsheets."
-      },
-      "quality": {
-        "title": "Healthy throughput, not vanity counts",
-        "body": "Pair throughput with change failure rate and incident load so velocity trends stay honest."
-      },
-      "alignment": {
-        "title": "Shared language for execs and ICs",
-        "body": "Executive summaries stay tied to the same canonical metrics your teams see in their squad dashboards."
-      }
-    },
-    "logos": {
-      "title": "Built for modern software delivery"
-    }
-  },
-  "features": {
-    "hero": {
-      "title": "Everything you need to steer delivery with confidence.",
-      "subtitle": "FlowMetrics is opinionated where it matters—definitions, governance, and drill-downs—and flexible where your toolchain is unique."
-    },
-    "list": {
-      "integrations": {
-        "title": "Deep integrations",
-        "body": "Bi-directional sync with Jira, Linear, GitHub, GitLab, and PagerDuty. Webhooks and SCIM for enterprise identity."
-      },
-      "dashboards": {
-        "title": "Role-aware dashboards",
-        "body": "Squad, program, and portfolio views with guardrails so metrics stay comparable across teams."
-      },
-      "alerts": {
-        "title": "Proactive alerts",
-        "body": "Notify on regressions in cycle time, review depth, or deployment frequency using thresholds tuned to your baselines."
-      },
-      "exports": {
-        "title": "Audit-ready exports",
-        "body": "Schedule CSV and warehouse syncs to Snowflake or BigQuery for finance and compliance workflows."
-      }
-    },
-    "cta": {
-      "title": "See FlowMetrics on your own data",
-      "body": "We onboard a read-only slice in under a week so you can validate signal quality before a wider rollout."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "title": "Simple plans that scale with your org chart.",
-      "subtitle": "Annual agreements include onboarding workshops, success reviews, and migration support from legacy analytics tools."
-    },
-    "meta": {
-      "lastUpdatedLabel": "Rate card last updated"
-    },
-    "billing": {
-      "perSeat": "per seat / month",
-      "billedAnnually": "Billed annually. Monthly available on Growth and above."
-    },
-    "plans": {
-      "starter": {
-        "name": "Starter",
-        "desc": "For a single product squad getting serious about delivery health.",
-        "priceNote": "from {amount} per seat / month",
-        "cta": "Start trial",
-        "bullets": {
-          "b1": "Up to 25 contributors",
-          "b2": "Jira or Linear + one Git provider",
-          "b3": "30-day metric history"
-        }
-      },
-      "growth": {
-        "name": "Growth",
-        "desc": "For multi-team programs that need shared definitions and portfolio rollups.",
-        "priceNote": "from {amount} per seat / month",
-        "cta": "Talk to sales",
-        "bullets": {
-          "b1": "Up to 200 contributors",
-          "b2": "All standard integrations + webhooks",
-          "b3": "13-month metric history"
-        }
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "desc": "Global rollouts with SSO, VPC options, and dedicated success partners.",
-        "priceNote": "Custom packaging and volume discounts",
-        "cta": "Request proposal",
-        "bullets": {
-          "b1": "Unlimited contributors",
-          "b2": "SCIM, audit logs, and data residency options",
-          "b3": "24/7 support with named CSM"
-        }
-      }
-    },
-    "faq": {
-      "title": "Pricing & packaging FAQ",
-      "items": {
-        "seatAddons": {
-          "question": "How are seats counted?",
-          "answer": "Anyone who appears on a squad dashboard or receives automated digests consumes a seat. Service accounts are free."
-        },
-        "annualCommit": {
-          "question": "Do you offer multi-year agreements?",
-          "answer": "Yes. Enterprise customers can lock in roadmap commitments, premium support tiers, and fixed unit pricing across a 24-36 month term."
-        },
-        "sso": {
-          "question": "When is SSO included?",
-          "answer": "SSO via SAML or OIDC ships by default on Enterprise and can be added to Growth for qualified security reviews."
-        }
-      },
-      "fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback."
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Tell us about your delivery toolchain.",
-      "subtitle": "We respond within one business day with a tailored walkthrough and sample dashboards for your team topology."
-    },
-    "channels": {
-      "sales": {
-        "title": "Sales & solutions",
-        "body": "sales@flowmetrics.example",
-        "hint": "Include your primary work tracking tool and approximate contributor count."
-      },
-      "support": {
-        "title": "Customer support",
-        "body": "support@flowmetrics.example",
-        "hint": "Existing customers: include your workspace slug for faster routing."
-      },
-      "hq": {
-        "title": "HQ",
-        "body": "500 Howard Street, San Francisco, CA"
-      }
-    },
-    "form": {
-      "title": "Request a demo",
-      "name": "Full name",
-      "email": "Work email",
-      "company": "Company",
-      "message": "What should we prepare?",
-      "submit": "Submit request",
-      "success": "Thanks—our solutions team will reach out within one business day.",
-      "disclaimer": "By submitting, you agree to our Terms and acknowledge our Privacy notice. No spam—ever."
-    }
-  }
+  "common.brand": "FlowMetrics",
+  "common.cta.primary": "Book a demo",
+  "common.cta.secondary": "View pricing",
+  "common.footer.privacy": "Privacy",
+  "common.footer.rights": "© 2026 FlowMetrics, Inc. All rights reserved.",
+  "common.footer.status": "Status",
+  "common.footer.tagline": "Operational analytics for teams who ship every week.",
+  "common.footer.terms": "Terms",
+  "common.langSwitcher.ar": "Arabic",
+  "common.langSwitcher.de": "German",
+  "common.langSwitcher.en": "English",
+  "common.langSwitcher.fr": "French",
+  "common.langSwitcher.label": "Language",
+  "common.meta.lastUpdatedLabel": "Product portal last updated",
+  "common.nav.contact": "Contact",
+  "common.nav.features": "Features",
+  "common.nav.home": "Home",
+  "common.nav.pricing": "Pricing",
+  "contact.channels.hq.body": "500 Howard Street, San Francisco, CA",
+  "contact.channels.hq.title": "HQ",
+  "contact.channels.sales.body": "sales@flowmetrics.example",
+  "contact.channels.sales.hint": "Include your primary work tracking tool and approximate contributor count.",
+  "contact.channels.sales.title": "Sales & solutions",
+  "contact.channels.support.body": "support@flowmetrics.example",
+  "contact.channels.support.hint": "Existing customers: include your workspace slug for faster routing.",
+  "contact.channels.support.title": "Customer support",
+  "contact.form.company": "Company",
+  "contact.form.disclaimer": "By submitting, you agree to our Terms and acknowledge our Privacy notice. No spam—ever.",
+  "contact.form.email": "Work email",
+  "contact.form.message": "What should we prepare?",
+  "contact.form.name": "Full name",
+  "contact.form.submit": "Submit request",
+  "contact.form.success": "Thanks—our solutions team will reach out within one business day.",
+  "contact.form.title": "Request a demo",
+  "contact.hero.subtitle": "We respond within one business day with a tailored walkthrough and sample dashboards for your team topology.",
+  "contact.hero.title": "Tell us about your delivery toolchain.",
+  "features.cta.body": "We onboard a read-only slice in under a week so you can validate signal quality before a wider rollout.",
+  "features.cta.title": "See FlowMetrics on your own data",
+  "features.hero.subtitle": "FlowMetrics is opinionated where it matters—definitions, governance, and drill-downs—and flexible where your toolchain is unique.",
+  "features.hero.title": "Everything you need to steer delivery with confidence.",
+  "features.list.alerts.body": "Notify on regressions in cycle time, review depth, or deployment frequency using thresholds tuned to your baselines.",
+  "features.list.alerts.title": "Proactive alerts",
+  "features.list.dashboards.body": "Squad, program, and portfolio views with guardrails so metrics stay comparable across teams.",
+  "features.list.dashboards.title": "Role-aware dashboards",
+  "features.list.exports.body": "Schedule CSV and warehouse syncs to Snowflake or BigQuery for finance and compliance workflows.",
+  "features.list.exports.title": "Audit-ready exports",
+  "features.list.integrations.body": "Bi-directional sync with Jira, Linear, GitHub, GitLab, and PagerDuty. Webhooks and SCIM for enterprise identity.",
+  "features.list.integrations.title": "Deep integrations",
+  "home.hero.eyebrow": "Team analytics dashboard screen",
+  "home.hero.proof": "Trusted by distributed product orgs from 30 to 3,000 people.",
+  "home.hero.subtitle": "FlowMetrics connects tickets, meetings, and delivery signals so engineering and product leaders can spot bottlenecks before they hit the roadmap.",
+  "home.hero.title": "See how work actually flows across your teams.",
+  "home.logos.title": "Built for modern software delivery",
+  "home.pillars.alignment.body": "Executive summaries stay tied to the same canonical metrics your teams see in their squad dashboards.",
+  "home.pillars.alignment.title": "Shared language for execs and ICs",
+  "home.pillars.flow.body": "Measure lead time, review latency, and handoff delays across tools without maintaining fragile spreadsheets.",
+  "home.pillars.flow.title": "End-to-end flow time",
+  "home.pillars.quality.body": "Pair throughput with change failure rate and incident load so velocity trends stay honest.",
+  "home.pillars.quality.title": "Healthy throughput, not vanity counts",
+  "home.pillars.title": "Why teams standardize on FlowMetrics",
+  "pricing.billing.billedAnnually": "Billed annually. Monthly available on Growth and above.",
+  "pricing.billing.perSeat": "per seat / month",
+  "pricing.faq.fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback.",
+  "pricing.faq.items.annualCommit.answer": "Yes. Enterprise customers can lock in roadmap commitments, premium support tiers, and fixed unit pricing across a 24-36 month term.",
+  "pricing.faq.items.annualCommit.question": "Do you offer multi-year agreements?",
+  "pricing.faq.items.seatAddons.answer": "Anyone who appears on a squad dashboard or receives automated digests consumes a seat. Service accounts are free.",
+  "pricing.faq.items.seatAddons.question": "How are seats counted?",
+  "pricing.faq.items.sso.answer": "SSO via SAML or OIDC ships by default on Enterprise and can be added to Growth for qualified security reviews.",
+  "pricing.faq.items.sso.question": "When is SSO included?",
+  "pricing.faq.title": "Pricing & packaging FAQ",
+  "pricing.hero.subtitle": "Annual agreements include onboarding workshops, success reviews, and migration support from legacy analytics tools.",
+  "pricing.hero.title": "Simple plans that scale with your org chart.",
+  "pricing.meta.lastUpdatedLabel": "Rate card last updated",
+  "pricing.plans.enterprise.bullets.b1": "Unlimited contributors",
+  "pricing.plans.enterprise.bullets.b2": "SCIM, audit logs, and data residency options",
+  "pricing.plans.enterprise.bullets.b3": "24/7 support with named CSM",
+  "pricing.plans.enterprise.cta": "Request proposal",
+  "pricing.plans.enterprise.desc": "Global rollouts with SSO, VPC options, and dedicated success partners.",
+  "pricing.plans.enterprise.name": "Enterprise",
+  "pricing.plans.enterprise.priceNote": "Custom packaging and volume discounts",
+  "pricing.plans.growth.bullets.b1": "Up to 200 contributors",
+  "pricing.plans.growth.bullets.b2": "All standard integrations + webhooks",
+  "pricing.plans.growth.bullets.b3": "13-month metric history",
+  "pricing.plans.growth.cta": "Talk to sales",
+  "pricing.plans.growth.desc": "For multi-team programs that need shared definitions and portfolio rollups.",
+  "pricing.plans.growth.name": "Growth",
+  "pricing.plans.growth.priceNote": "from {amount} per seat / month",
+  "pricing.plans.starter.bullets.b1": "Up to 25 contributors",
+  "pricing.plans.starter.bullets.b2": "Jira or Linear + one Git provider",
+  "pricing.plans.starter.bullets.b3": "30-day metric history",
+  "pricing.plans.starter.cta": "Start trial",
+  "pricing.plans.starter.desc": "For a single product squad getting serious about delivery health.",
+  "pricing.plans.starter.name": "Starter",
+  "pricing.plans.starter.priceNote": "from {amount} per seat / month"
 }
