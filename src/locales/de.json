@@ -1,184 +1,96 @@
 {
-  "common": {
-    "brand": "FlowMetrics",
-    "nav": {
-      "home": "Start",
-      "features": "Funktionen",
-      "pricing": "Preise",
-      "contact": "Kontakt"
-    },
-    "footer": {
-      "tagline": "Operative Analytics für Teams, die jede Woche liefern.",
-      "rights": "© 2026 FlowMetrics, Inc. Alle Rechte vorbehalten.",
-      "privacy": "Datenschutz",
-      "terms": "AGB",
-      "status": "Status"
-    },
-    "langSwitcher": {
-      "label": "Sprache",
-      "en": "Englisch",
-      "ar": "Arabisch",
-      "fr": "Französisch",
-      "de": "Deutsch"
-    },
-    "cta": {
-      "primary": "Demo buchen",
-      "secondary": "Preise ansehen"
-    },
-    "meta": {
-      "lastUpdatedLabel": "Produktportal zuletzt aktualisiert"
-    }
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "Team-Analytics-Dashboard",
-      "title": "Sehen Sie, wie Arbeit wirklich zwischen Ihren Teams fließt.",
-      "subtitle": "FlowMetrics verbindet Tickets, Meetings und Delivery-Signale, damit Engineering- und Produktführung Engpässe erkennt, bevor sie die Roadmap treffen.",
-      "proof": "Vertraut von verteilten Produktorganisationen von 30 bis 3.000 Personen."
-    },
-    "pillars": {
-      "title": "Warum Teams auf FlowMetrics standardisieren",
-      "flow": {
-        "title": "End-to-End-Durchlaufzeit",
-        "body": "Messen Sie Lead Time, Review-Latenz und Übergabeverzögerungen über Tools hinweg ohne fragile Tabellen."
-      },
-      "quality": {
-        "title": "Gesunder Durchsatz statt Vanity-Metriken",
-        "body": "Koppeln Sie Durchsatz mit Change-Failure-Rate und Incident-Last, damit Velocity-Trends ehrlich bleiben."
-      },
-      "alignment": {
-        "title": "Gemeinsame Sprache für Führung und ICs",
-        "body": "Executive-Summaries bleiben an dieselben kanonischen Metriken gekoppelt, die Teams in ihren Squad-Dashboards sehen."
-      }
-    },
-    "logos": {
-      "title": "Gebaut für moderne Software-Lieferung"
-    }
-  },
-  "features": {
-    "hero": {
-      "title": "Alles, was Sie brauchen, um Delivery souverän zu steuern.",
-      "subtitle": "FlowMetrics ist dort entschieden, wo es zählt—Definitionen, Governance, Drill-downs—und flexibel, wo Ihre Toolchain einzigartig ist."
-    },
-    "list": {
-      "integrations": {
-        "title": "Tiefe Integrationen",
-        "body": "Bidirektionale Syncs mit Jira, Linear, GitHub, GitLab und PagerDuty. Webhooks und SCIM für Enterprise-Identität."
-      },
-      "dashboards": {
-        "title": "Rollenbewusste Dashboards",
-        "body": "Squad-, Programm- und Portfolio-Ansichten mit Leitplanken, damit Metriken teamübergreifend vergleichbar bleiben."
-      },
-      "alerts": {
-        "title": "Proaktive Alerts",
-        "body": "Benachrichtigen Sie bei Regressionen in Cycle Time, Review-Tiefe oder Deployment-Frequenz—Schwellen an Ihre Baselines angepasst."
-      },
-      "exports": {
-        "title": "Audit-taugliche Exporte",
-        "body": "Planen Sie CSV- und Warehouse-Syncs nach Snowflake oder BigQuery für Finance- und Compliance-Workflows."
-      }
-    },
-    "cta": {
-      "title": "FlowMetrics auf Ihren eigenen Daten sehen",
-      "body": "Wir onboarden ein read-only-Slice in unter einer Woche, damit Sie Signalqualität vor einem breiteren Rollout validieren."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "title": "Einfache Pläne, die mit Ihrer Organisation skalieren.",
-      "subtitle": "Jahresverträge beinhalten Onboarding-Workshops, Success-Reviews und Migrations-Support von Legacy-Analytics-Tools."
-    },
-    "meta": {
-      "lastUpdatedLabel": "Preisliste zuletzt aktualisiert"
-    },
-    "billing": {
-      "perSeat": "pro Seat / Monat",
-      "billedAnnually": "Jährliche Abrechnung. Monatlich ab Growth verfügbar."
-    },
-    "plans": {
-      "starter": {
-        "name": "Starter",
-        "desc": "Für ein einzelnes Produkt-Squad, das Delivery-Gesundheit ernst nimmt.",
-        "priceNote": "ab {amount} pro Seat / Monat",
-        "cta": "Trial starten",
-        "bullets": {
-          "b1": "Bis zu 25 Mitwirkende",
-          "b2": "Jira oder Linear + ein Git-Provider",
-          "b3": "30 Tage Metrik-Historie"
-        }
-      },
-      "growth": {
-        "name": "Growth",
-        "desc": "Für Programme mit mehreren Teams, die gemeinsame Definitionen und Portfolio-Rollups brauchen.",
-        "priceNote": "ab {amount} pro Seat / Monat",
-        "cta": "Sales kontaktieren",
-        "bullets": {
-          "b1": "Bis zu 200 Mitwirkende",
-          "b2": "Alle Standard-Integrationen + Webhooks",
-          "b3": "13 Monate Metrik-Historie"
-        }
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "desc": "Globale Rollouts mit SSO, VPC-Optionen und dedizierten Success-Partnern.",
-        "priceNote": "Individuelle Pakete und Mengenrabatte",
-        "cta": "Angebot anfragen",
-        "bullets": {
-          "b1": "Unbegrenzte Mitwirkende",
-          "b2": "SCIM, Audit-Logs und Data-Residency-Optionen",
-          "b3": "24/7-Support mit benanntem CSM"
-        }
-      }
-    },
-    "faq": {
-      "title": "FAQ zu Preisen & Packaging",
-      "fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback.",
-      "items": {
-        "seatAddons": {
-          "question": "Wie werden Seats gezählt?",
-          "answer": "Jede Person, die auf einem Squad-Dashboard erscheint oder automatische Digests erhält, verbraucht einen Seat. Service-Accounts sind kostenlos."
-        },
-        "annualCommit": {
-          "question": "Bieten Sie Mehrjahresvereinbarungen?",
-          "answer": "Ja. Enterprise-Kunden können Roadmap-Commitments, Premium-Support-Stufen und feste Stückpreise über 24–36 Monate absichern."
-        },
-        "sso": {
-          "question": "Wann ist SSO enthalten?",
-          "answer": "SSO via SAML or OIDC ships by default on Enterprise and can be added to Growth for qualified security reviews."
-        }
-      }
-    }
-  },
-  "contact": {
-    "hero": {
-      "title": "Erzählen Sie uns von Ihrer Delivery-Toolchain.",
-      "subtitle": "Wir antworten innerhalb eines Werktags mit einer maßgeschneiderten Tour und Beispiel-Dashboards für Ihre Team-Topologie."
-    },
-    "channels": {
-      "sales": {
-        "title": "Sales & Solutions",
-        "body": "sales@flowmetrics.example",
-        "hint": "Nennen Sie Ihr primäres Issue-Tracking-Tool und die ungefähre Mitwirkendenanzahl."
-      },
-      "support": {
-        "title": "Kundensupport",
-        "body": "support@flowmetrics.example",
-        "hint": "Bestandskunden: Workspace-Slug angeben für schnelleres Routing."
-      },
-      "hq": {
-        "title": "Hauptsitz",
-        "body": "500 Howard Street, San Francisco, CA"
-      }
-    },
-    "form": {
-      "title": "Demo anfragen",
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Unternehmen",
-      "message": "Was sollen wir vorbereiten?",
-      "submit": "Anfrage senden",
-      "success": "Danke—unser Solutions-Team meldet sich innerhalb eines Werktags.",
-      "disclaimer": "Mit dem Absenden akzeptieren Sie unsere AGB und erkennen den Datenschutzhinweis an. Kein Spam—niemals."
-    }
-  }
+  "common.brand": "FlowMetrics",
+  "common.cta.primary": "Demo buchen",
+  "common.cta.secondary": "Preise ansehen",
+  "common.footer.privacy": "Datenschutz",
+  "common.footer.rights": "© 2026 FlowMetrics, Inc. Alle Rechte vorbehalten.",
+  "common.footer.status": "Status",
+  "common.footer.tagline": "Operative Analytics für Teams, die jede Woche liefern.",
+  "common.footer.terms": "AGB",
+  "common.langSwitcher.ar": "Arabisch",
+  "common.langSwitcher.de": "Deutsch",
+  "common.langSwitcher.en": "Englisch",
+  "common.langSwitcher.fr": "Französisch",
+  "common.langSwitcher.label": "Sprache",
+  "common.meta.lastUpdatedLabel": "Produktportal zuletzt aktualisiert",
+  "common.nav.contact": "Kontakt",
+  "common.nav.features": "Funktionen",
+  "common.nav.home": "Start",
+  "common.nav.pricing": "Preise",
+  "contact.channels.hq.body": "500 Howard Street, San Francisco, CA",
+  "contact.channels.hq.title": "Hauptsitz",
+  "contact.channels.sales.body": "sales@flowmetrics.example",
+  "contact.channels.sales.hint": "Nennen Sie Ihr primäres Issue-Tracking-Tool und die ungefähre Mitwirkendenanzahl.",
+  "contact.channels.sales.title": "Sales & Solutions",
+  "contact.channels.support.body": "support@flowmetrics.example",
+  "contact.channels.support.hint": "Bestandskunden: Workspace-Slug angeben für schnelleres Routing.",
+  "contact.channels.support.title": "Kundensupport",
+  "contact.form.company": "Unternehmen",
+  "contact.form.disclaimer": "Mit dem Absenden akzeptieren Sie unsere AGB und erkennen den Datenschutzhinweis an. Kein Spam—niemals.",
+  "contact.form.email": "Geschäftliche E-Mail",
+  "contact.form.message": "Was sollen wir vorbereiten?",
+  "contact.form.name": "Vollständiger Name",
+  "contact.form.submit": "Anfrage senden",
+  "contact.form.success": "Danke—unser Solutions-Team meldet sich innerhalb eines Werktags.",
+  "contact.form.title": "Demo anfragen",
+  "contact.hero.subtitle": "Wir antworten innerhalb eines Werktags mit einer maßgeschneiderten Tour und Beispiel-Dashboards für Ihre Team-Topologie.",
+  "contact.hero.title": "Erzählen Sie uns von Ihrer Delivery-Toolchain.",
+  "features.cta.body": "Wir onboarden ein read-only-Slice in unter einer Woche, damit Sie Signalqualität vor einem breiteren Rollout validieren.",
+  "features.cta.title": "FlowMetrics auf Ihren eigenen Daten sehen",
+  "features.hero.subtitle": "FlowMetrics ist dort entschieden, wo es zählt—Definitionen, Governance, Drill-downs—und flexibel, wo Ihre Toolchain einzigartig ist.",
+  "features.hero.title": "Alles, was Sie brauchen, um Delivery souverän zu steuern.",
+  "features.list.alerts.body": "Benachrichtigen Sie bei Regressionen in Cycle Time, Review-Tiefe oder Deployment-Frequenz—Schwellen an Ihre Baselines angepasst.",
+  "features.list.alerts.title": "Proaktive Alerts",
+  "features.list.dashboards.body": "Squad-, Programm- und Portfolio-Ansichten mit Leitplanken, damit Metriken teamübergreifend vergleichbar bleiben.",
+  "features.list.dashboards.title": "Rollenbewusste Dashboards",
+  "features.list.exports.body": "Planen Sie CSV- und Warehouse-Syncs nach Snowflake oder BigQuery für Finance- und Compliance-Workflows.",
+  "features.list.exports.title": "Audit-taugliche Exporte",
+  "features.list.integrations.body": "Bidirektionale Syncs mit Jira, Linear, GitHub, GitLab und PagerDuty. Webhooks und SCIM für Enterprise-Identität.",
+  "features.list.integrations.title": "Tiefe Integrationen",
+  "home.hero.eyebrow": "Team-Analytics-Dashboard",
+  "home.hero.proof": "Vertraut von verteilten Produktorganisationen von 30 bis 3.000 Personen.",
+  "home.hero.subtitle": "FlowMetrics verbindet Tickets, Meetings und Delivery-Signale, damit Engineering- und Produktführung Engpässe erkennt, bevor sie die Roadmap treffen.",
+  "home.hero.title": "Sehen Sie, wie Arbeit wirklich zwischen Ihren Teams fließt.",
+  "home.logos.title": "Gebaut für moderne Software-Lieferung",
+  "home.pillars.alignment.body": "Executive-Summaries bleiben an dieselben kanonischen Metriken gekoppelt, die Teams in ihren Squad-Dashboards sehen.",
+  "home.pillars.alignment.title": "Gemeinsame Sprache für Führung und ICs",
+  "home.pillars.flow.body": "Messen Sie Lead Time, Review-Latenz und Übergabeverzögerungen über Tools hinweg ohne fragile Tabellen.",
+  "home.pillars.flow.title": "End-to-End-Durchlaufzeit",
+  "home.pillars.quality.body": "Koppeln Sie Durchsatz mit Change-Failure-Rate und Incident-Last, damit Velocity-Trends ehrlich bleiben.",
+  "home.pillars.quality.title": "Gesunder Durchsatz statt Vanity-Metriken",
+  "home.pillars.title": "Warum Teams auf FlowMetrics standardisieren",
+  "pricing.billing.billedAnnually": "Jährliche Abrechnung. Monatlich ab Growth verfügbar.",
+  "pricing.billing.perSeat": "pro Seat / Monat",
+  "pricing.faq.fallbackHint": "Demo: Die SSO-Antwort ist im Deutschen absichtlich nicht übersetzt—vue-i18n nutzt den englischen Fallback.",
+  "pricing.faq.items.annualCommit.answer": "Ja. Enterprise-Kunden können Roadmap-Commitments, Premium-Support-Stufen und feste Stückpreise über 24–36 Monate absichern.",
+  "pricing.faq.items.annualCommit.question": "Bieten Sie Mehrjahresvereinbarungen?",
+  "pricing.faq.items.seatAddons.answer": "Jede Person, die auf einem Squad-Dashboard erscheint oder automatische Digests erhält, verbraucht einen Seat. Service-Accounts sind kostenlos.",
+  "pricing.faq.items.seatAddons.question": "Wie werden Seats gezählt?",
+  "pricing.faq.items.sso.answer": "SSO via SAML or OIDC ships by default on Enterprise and can be added to Growth for qualified security reviews.",
+  "pricing.faq.items.sso.question": "Wann ist SSO enthalten?",
+  "pricing.faq.title": "FAQ zu Preisen & Packaging",
+  "pricing.hero.subtitle": "Jahresverträge beinhalten Onboarding-Workshops, Success-Reviews und Migrations-Support von Legacy-Analytics-Tools.",
+  "pricing.hero.title": "Einfache Pläne, die mit Ihrer Organisation skalieren.",
+  "pricing.meta.lastUpdatedLabel": "Preisliste zuletzt aktualisiert",
+  "pricing.plans.enterprise.bullets.b1": "Unbegrenzte Mitwirkende",
+  "pricing.plans.enterprise.bullets.b2": "SCIM, Audit-Logs und Data-Residency-Optionen",
+  "pricing.plans.enterprise.bullets.b3": "24/7-Support mit benanntem CSM",
+  "pricing.plans.enterprise.cta": "Angebot anfragen",
+  "pricing.plans.enterprise.desc": "Globale Rollouts mit SSO, VPC-Optionen und dedizierten Success-Partnern.",
+  "pricing.plans.enterprise.name": "Enterprise",
+  "pricing.plans.enterprise.priceNote": "Individuelle Pakete und Mengenrabatte",
+  "pricing.plans.growth.bullets.b1": "Bis zu 200 Mitwirkende",
+  "pricing.plans.growth.bullets.b2": "Alle Standard-Integrationen + Webhooks",
+  "pricing.plans.growth.bullets.b3": "13 Monate Metrik-Historie",
+  "pricing.plans.growth.cta": "Sales kontaktieren",
+  "pricing.plans.growth.desc": "Für Programme mit mehreren Teams, die gemeinsame Definitionen und Portfolio-Rollups brauchen.",
+  "pricing.plans.growth.name": "Growth",
+  "pricing.plans.growth.priceNote": "ab {amount} pro Seat / Monat",
+  "pricing.plans.starter.bullets.b1": "Bis zu 25 Mitwirkende",
+  "pricing.plans.starter.bullets.b2": "Jira oder Linear + ein Git-Provider",
+  "pricing.plans.starter.bullets.b3": "30 Tage Metrik-Historie",
+  "pricing.plans.starter.cta": "Trial starten",
+  "pricing.plans.starter.desc": "Für ein einzelnes Produkt-Squad, das Delivery-Gesundheit ernst nimmt.",
+  "pricing.plans.starter.name": "Starter",
+  "pricing.plans.starter.priceNote": "ab {amount} pro Seat / Monat"
 }
